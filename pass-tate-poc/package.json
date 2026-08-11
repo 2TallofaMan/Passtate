@@ -1,0 +1,13 @@
+{
+  "name": "pass-tate-poc",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@simplewebauthn/browser": "^13.1.1",
+    "@simplewebauthn/server": "^13.1.1",
+    "express": "^5.1.0"
+  }
+}
